@@ -1,0 +1,159 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Proiect_HCI</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Proiect_HCI.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light  box-shadow mb-3">
+            <div class="container-fluid">
+                <div class="logo-class">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><img src="~/Images/flight_logo4.png" /></a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse">
+                  
+                    <div class="main-nav">
+                    <ul class="navbar-nav ">
+                    <li>
+                    <a class="nav-link " asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                    </li>
+
+                     <li class="nav-item">
+                        <a class="nav-link " asp-area="" asp-controller="Home" asp-action="Search">Destinations</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link " asp-area="" asp-controller="Home" asp-action="Itinerary">Itinerary</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " asp-area="" asp-controller="Home" asp-action="AboutUs">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " asp-area="" asp-controller="Home" asp-action="Profile">Profile</a>
+                    </li>
+                    </ul>
+                    </div>
+                    <div class="sign-up-nav">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item  sign-in">
+   
+                              <button class="nav-link" id="login-button">SignIn</button>
+                        </li>
+                        <li class="nav-item sign-up">
+
+                              <button class="nav-link" id="register-button">SignUp</button>
+                        </li>
+                      
+                    </ul>
+                    </div>
+                      
+                    
+                </div>
+            </div>
+        </nav>
+    </header>
+    @*<div class="container">
+     <main role="main" class="pb-3">
+  
+       </main>
+    </div>*@
+
+    <div class="overlay"></div>
+    <div class="login-box" id="login-box">
+        <h2>Login</h2>
+        <hr>
+        <form>
+            <label for="username">Email:</label>
+            <input type="text" id="username" name="username">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            <hr>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+    <div class="login-box" id="register-box">
+        <h2>Register</h2>
+        <hr>
+        <form>
+            <label for="username">Email:</label>
+            <input type="text" id="username" name="username">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            <label for="password">Confirm Password:</label>
+            <input type="password" id="password" name="password">
+             <hr>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+    @RenderBody()
+
+<footer class="border-top  text-muted container-footer">
+
+    <div class="container-footer-content">
+        &copy; 2023 - Caldararu_David - Proiect_HCI - 
+        <a asp-area="" asp-controller="Home" asp-action="Index" class="footer-link-item">Home</a> |
+        <a asp-area="" asp-controller="Home" asp-action="Search" class="footer-link-item">Destinations</a> |
+        <a asp-area="" asp-controller="Home" asp-action="Itinerary" class="footer-link-item">Itinerary</a> |
+        <a asp-area="" asp-controller="Home" asp-action="AboutUs" class="footer-link-item">About Us</a> |
+        <a asp-area="" asp-controller="Home" asp-action="Profile" class="footer-link-item">Profile</a>
+    </div>
+</footer>
+    <script>
+        const overlay = document.querySelector('.overlay');
+        const loginButton = document.getElementById('login-button');
+        const registerButton = document.getElementById('register-button');
+
+        document.addEventListener('DOMContentLoaded', () => {
+            loginButton.addEventListener('click', () => {
+                showLoginBox();
+            });
+
+            registerButton.addEventListener('click', () => {
+                showRegisterBox();
+            });
+
+            overlay.addEventListener('click', hideBox);
+        });
+
+        function showLoginBox() {
+            const loginBox = document.getElementById('login-box');
+            overlay.style.display = 'block';
+            loginBox.style.display = 'block';
+        }
+
+        function showRegisterBox() {
+            const registerBox = document.getElementById('register-box');
+            overlay.style.display = 'block';
+            registerBox.style.display = 'block';
+        }
+
+        function hideBox() {
+            const loginBox = document.getElementById('login-box');
+            const registerBox = document.getElementById('register-box');
+            overlay.style.display = 'none';
+            loginBox.style.display = 'none';
+            registerBox.style.display = 'none';
+        }
+
+        // Comment out the line below to prevent the login box from showing on page load
+        // window.addEventListener('load', showLoginBox);
+
+          
+
+
+    </script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

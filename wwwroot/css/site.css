@@ -1,0 +1,1273 @@
+html {
+  font-size: 14px;
+
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    
+   /* margin-bottom: 60px;*/
+}
+footer {
+  
+}
+
+.navbar {
+    font-family: Bombshell Pro;
+}
+
+
+
+
+
+
+
+/*---- Home page css ----*/
+
+
+
+
+
+
+.home-background {
+    background-image: url("../Images/background_home3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Bombshell Pro;
+    position: absolute;
+    position: relative;
+}
+    
+.navbar-collapse {
+    display: flex;
+    float: right;
+    flex-grow: 0;
+    align-items: stretch;
+
+ /*   --bs-bg-opacity: 0;
+     border-bottom: 0px solid #dee2e6!important;*/
+}
+
+.main-nav {
+    float: left;
+
+}
+.main-nav li{
+    float: left;
+    padding-left: 25px;
+    padding-right: 25px;
+
+
+}
+
+    .main-nav li:hover {
+        background-color:white;
+        opacity: 0.4;
+    }
+
+.nav-link {
+    color: #000000 !important;
+    font-weight: bold;
+}
+.sign-up-nav {
+    float: right;
+    padding-left: 30px;
+
+}
+
+.sign-up-nav li{
+
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.sign-in button {
+    background-color: #000000;
+    color: #ffffff !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    border-radius: 10px;
+    font-weight: bold;
+    border: 1px solid #000000;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.8);
+}
+    .sign-in button:hover {
+        background-color: transparent;
+        color: black !important;
+        border-radius: 10px;
+        border: 1px solid #000000;
+    }
+
+.sign-up button {
+    background-color: transparent;
+    color: black !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    font-weight: bold;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.8);
+}
+
+    .sign-up button:hover {
+        background-color: black;
+        color: white !important;
+    }
+
+.container-fluid {
+    float: right;
+}
+.wrap-content {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 2rem);
+    padding-left: var(--bs-gutter-x, 16rem);
+    padding-bottom: var(--bs-gutter-x, 2rem);
+    margin-right: auto;
+   /* margin-left: 100px;*/
+    
+}
+.wrap-content-bottom {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 2rem);
+    padding-left: var(--bs-gutter-x, 16rem);
+    padding-bottom: var(--bs-gutter-x, 2rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+.home-page-welcome {
+    margin-top:100px;
+}
+
+    .home-page-welcome h1 {
+        max-width: 550px;
+        font-size: 40px;
+    }
+    .home-page-welcome p {
+        max-width: 350px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+
+
+.home-button-offers {
+    margin-top: 30px;
+ /*   margin-bottom: 100px;*/
+    padding-bottom:300px;
+}
+
+    .home-button-offers a {
+        background-color: #000000;
+        color: #ffffff !important;
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+        padding-bottom: 7px;
+        padding-top: 7px;
+        border-radius: 10px;
+        font-weight: bold;
+        border-radius: 10px;
+        border: 1px solid #000000;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.8);
+        text-decoration:none;
+    }
+
+        .home-button-offers button:hover {
+            background-color: transparent;
+            color: black !important;
+            border-radius: 10px;
+            border: 1px solid #000000;
+        }
+
+.home-search {
+    background-color: white;
+    margin-bottom: 0;
+    /* margin-top: 120px;*/
+    margin-top: -80px;
+    padding-top: 100px;
+    position: relative;
+    z-index: 1;
+   
+
+}
+
+.search-form {
+    background-color: white;
+    padding: 20px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    max-width: 1000px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    position: relative;
+    z-index: 2;
+    font-weight: bold;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.8);
+    /*  margin-bottom: 60px;*/
+}
+    .search-form input {
+        border-radius: 10px;
+        border: 2px solid #000000;
+    }  
+.search-form-div {
+    display: inline-block;
+    margin-right: 10px;
+    flex-direction:column;
+
+}
+.submit-button {
+    background-color: #000000;
+    color: #ffffff !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.8);
+    text-decoration:none;
+}
+
+.submit-button:hover {
+    background-color: transparent;
+    color: black !important;
+    border-radius: 10px;
+    border: 1px solid #000000;
+}
+
+
+
+
+.reccomanded-locations {
+    /*margin-top: 30px;*/
+    background-color: white;
+    border-radius: 10px;
+   /* border: 1px solid #000000;
+    padding: 10px;*/
+    padding-bottom: 32px;
+    padding-left: 20px;
+    
+    max-width: 1550px;
+    min-width: 1550px;
+    
+}
+
+.reccomanded-locations h2 {
+    margin-bottom: 10px;
+ 
+}
+    .reccomanded-locations hr {
+        margin-bottom: 20px;
+    }
+
+.reccomanded-locations-content{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+
+.destinations-slider {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /*max-width: 2000px;*/
+}
+
+.destinations-slider-item {
+    position: relative;
+    padding-right:10px;
+}
+
+    .destinations-slider-item img {
+        max-width: 300px;
+        max-height: 300px;
+        margin-bottom: 2px;
+        
+        
+    }
+
+    .destinations-slider-item h3 {
+        margin-top: 8px;
+        text-align: left;
+        font-size: 12px;
+        color: white;
+        z-index: 2;
+        margin-left:10px;
+        
+    }
+    .destinations-slider-item h2 {
+        margin-top: 8px;
+        text-align: left;
+        font-size: 12px;
+        color: white;
+        z-index: 2;
+        margin-right: 10px;
+    }
+
+.name-price {
+    margin-top: -45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+    .name-price::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgb(4 4 4 / 50%);
+        z-index: 1;
+        border: 1px;
+        border-radius: 10px;
+    }
+/*.destination-slider-item-details {
+    margin-top: 20px;
+    bottom: 0;
+    
+}
+    
+
+    .destination-slider-item-details button {
+        border: 0px solid #000000;
+        font-weight: bold;
+        background-color: transparent;
+        color:white;
+     
+    }
+        
+
+    .destination-slider-item-details button:hover {
+        opacity: 0.5;
+    }*/
+
+.details-button {
+    margin-top: 12px;
+    bottom: 0;
+    font-weight: bold;
+    background-color: #2d2c2c;
+    color: #f9fafb;
+    border-radius: 0px;
+    border: 1px solid white;
+    min-width: 250px;
+}
+    .details-button:hover {
+        background-color: transparent;
+        color: black;
+    }
+
+.container-footer {
+    background-color: #fff;
+    /*bottom: 0;*/
+    position: absolute;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.container-footer content {
+    background-color: #fff;
+    
+}
+
+.footer-link-item {
+    color: grey;
+    text-decoration: none;
+
+}
+
+.footer-link-item:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.slider-container {
+    width: 1300px;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider-wrapper {
+    display: flex;
+    transition: left 0.3s ease-in-out;
+    left: 0;
+    position: relative;
+}
+
+    .slider-wrapper img {
+        flex: 0 0 25%;
+        min-width: 250px;
+        min-height: 150px;
+        max-width: 250px;
+        max-height: 150px;
+        /*max-width: 25%;*/
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+.prev-btn, .next-btn {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+    width: 80px; 
+    height: 80px;
+    position: relative;
+}
+
+.arrow-left, .arrow-right {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom:30px;
+    left: 0;
+    right:0;
+
+    font-size: 80px; 
+}
+
+    .arrow-left:before {
+        content: "\2039";
+    }
+
+    .arrow-right:before {
+        content: "\203a";
+    }
+
+
+.prev-btn {
+    float: left;
+}
+
+.next-btn {
+   float:right;
+ 
+}
+
+
+
+
+
+
+/*---- About page css ----*/
+
+
+
+
+
+.about-background {
+    background-color: #f2f2f2;
+    font-family: Bombshell Pro;
+}
+
+
+
+.about-title-message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+   
+}
+
+.about-top-content {
+    max-width: 1225px;
+}
+
+    .about-top-content h1 {
+        font-size: 50px;
+        text-align: center;
+        margin-bottom: 20px;
+        border: 1px solid #d0cccc;
+        background-color: white;
+        color: #9d9a9a;
+        padding: 10px;
+       
+    }
+
+    .about-top-content h2 {
+        font-size: 30px;
+        font-weight: bold;
+        color: #9d9a9a;
+        padding: 10px;
+        text-align: center;
+        margin-bottom: 20px;
+       
+    }
+    .about-top-content p {
+        font-size: 18px;
+        font-weight: 400;
+      
+    }
+
+.about-main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 200px;
+   
+}
+
+.about-images {
+    max-width: 1205px;
+    z-index: -1;
+    position: absolute;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.8);
+}
+
+
+    .about-images img {
+        max-width: 600px;
+        min-width: 600px;
+        max-height: 300px;
+        min-height: 300px;
+    }
+
+
+.about-bottom-content {
+    max-width: 800px;
+    min-width: 800px;
+    max-height: 460px;
+    min-height: 460px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    position: relative;
+    z-index: 1;
+    margin: 50px 250px 0 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 60px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.8);
+}
+    .about-bottom-content div {
+        margin-left: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+
+    }
+    .about-bottom-content h1 {
+        font-size: 35px;
+        margin-top: 40px;
+        max-width: 420px;
+        color: #9d9a9a;
+    }
+
+    .about-bottom-content h2 {
+        font-size: 25px;
+        font-weight: bold;
+        margin-top: 20px;
+        border: 1px solid #d0cccc;
+        background-color: white;
+        color: #9d9a9a;
+        padding: 10px;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.8);
+    }
+
+    .about-bottom-content p {
+        font-size: 18px;
+        margin-top: 20px;
+        font-weight: 400;
+        max-width: 500px;
+    }
+    .about-bottom-content button {
+        margin-top: 30px;
+        font-size: 17px;
+        font-weight: bold;
+        color: white;
+        background-color: black;
+        text-align: center;
+        padding: 10px;
+        padding-right: 40px;
+        padding-left: 40px;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.8);
+        transition: opacity 0.3s ease;
+    }
+
+    .about-bottom-content button span:hover {
+       opacity:50%;
+    }
+
+.about-social-section {
+    max-width: 1250px;
+    margin: 0px auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-family: Bombshell Pro;
+}
+
+.about-social {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.about-social-element {
+    border: 1px solid black;
+    padding: 40px 100px 40px 100px;
+    width: calc(33.33% - 20px);
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.8);
+
+}
+
+    .about-social-element img {
+    max-width: 100%;
+}
+
+    .about-social-element p {
+        color: #9d9a9a;
+        font-weight: 400;
+        margin: 0;
+        font-size: 16px;
+        line-height: 1.2;
+    }
+
+
+
+/*---- Destinations(search) page css ----*/
+
+
+.search-background {
+    font-family: Bombshell Pro;
+}
+
+
+
+
+.search-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f8f8;
+    padding: 10px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border: 1px solid #eae2e2;
+    margin-left: 58px;
+    margin-right: 58px;
+}
+
+.search-form-left {
+    margin-right: 150px;
+    display: flex;
+  
+}
+
+.search-form-right {
+    margin-left:150px;
+    display: flex;
+  
+}
+
+.date,
+.weather {
+    font-size: 14px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+.date1 h1{
+    font-size: 64px;
+}
+    .weather h1 {
+        font-size: 50px;
+    }
+
+        .weather h3 {
+       font-size:20px;
+       font-weight:bold;
+    }
+    .weather h2 {
+        font-size: 18px;
+        font-weight: bold;
+        opacity:50%;
+    }
+.weather img{
+    margin-right:10px;
+}
+    .date2 {
+    margin-left:10px;
+    display: flex;
+    flex-direction: column;
+}
+.search-weather-country {
+    margin-left: 10px;
+}
+
+.search-main {
+    max-width: 2000px;
+   
+    margin: 0px auto;
+}
+
+.search-results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 2000px;
+    border: 1px solid #eae2e2;
+}
+.search-element {
+    width: calc(25%-10px);
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid #d0cccc;
+    padding: 30px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.8);
+    transform: scale(0.85);
+    margin-right: -2.5%;
+}
+
+.search-element-top {
+    display: flex;
+    flex-direction: row;
+    
+    border-radius:10px;
+}
+.search-add-button {
+    margin-left:80px;
+}
+
+    .search-add-button a {
+        padding: 10px;
+        font-weight: bold;
+        border-radius: 10px;
+        border: 1px solid #d0cccc;
+        background-color: white;
+        color: black;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.8);
+        text-decoration:none;
+    }
+
+
+    .search-add-button button:hover {
+       
+
+        background-color: black;
+        color: white;
+    }
+
+
+.search-element img {
+    max-width: 400px;
+    min-width: 400px;
+    max-height: 250px;
+    min-height: 250px;
+}
+
+.search-element h2{
+    font-size:24px;
+    font-weight:bold;
+}
+
+
+    .search-element h3 {
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+
+    .search-element h4 {
+        font-size: 18px;
+        opacity: 70%;
+    }
+.search-element h5 {
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    opacity: 50%;
+    font-weight: bold;
+    margin-right: 5px;
+   
+}
+
+    .search-element p {
+        font-weight: bold;
+        opacity:30%;
+    }
+
+.search-details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+    .search-details button {
+        padding: 10px;
+        font-weight: bold;
+        border-radius: 10px;
+        border: 1px solid #d0cccc;
+        background-color: white;
+        color: black;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.8);
+    }
+        .search-details button:hover {
+            background-color: black;
+            color: white;
+        }
+
+
+.search-element-price {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+/*---- Itinerary page css ----*/
+
+.itinerary-background {
+    background-color: #f2f2f2;
+    font-family: Bombshell Pro;
+}
+
+.itinerary-top {
+    text-align: center;
+    margin-top: 50px;
+}
+
+    .itinerary-top h1 {
+        font-size: 36px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .itinerary-top p {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+.itinerary-main {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+
+
+}
+.itinerary-wrapper {
+    background-color: white;
+    padding: 50px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.8);
+}
+
+.itinerary-name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+    .itinerary-name button {
+        color: white;
+        background-color: black;
+        font-weight: bold;
+        border-radius: 10px;
+        border: 1px solid black;
+        background-color: black;
+        padding-right: 20px;
+        padding-left: 20px;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.8);
+    }
+
+        .itinerary-name button:hover {
+            color: black;
+            background-color: white;
+            
+        }
+
+.itinerary-wrapper h2 {
+font-size: 30px;
+font-weight: bold;
+margin-top: 15px;
+}
+.itinerary-main-content {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-top: 50px;
+    background-color: white;
+  
+}
+
+.itinerary-details {
+    display: flex;
+    flex-direction:column;
+    flex:1;
+    padding-right:30px;
+
+   
+}
+.itinerary-details-top{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+.add-destination-button {
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    border-top: 1px solid black;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.8);
+}
+
+    .add-destination-button:hover {
+        color: white;
+        background-color: black;
+    }
+
+
+.itinerary-details h3 {
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    /*   margin-bottom: 20px;*/
+}
+    .itinerary-details h4 {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        padding-top: 10px;
+    }
+    .itinerary-details p {
+        font-size: 18px;
+        margin-bottom: 20px;
+        
+    }
+    .itinerary-details span {
+        font-size: 20px;
+       
+
+    }
+.itinerary-details-item-price {
+    padding-left:85px;
+}
+.itinerary-details-list {
+  
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.8);
+}
+.itinerary-details ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid #aa9e9e;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-left: 2px;
+    padding-bottom: 10px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.8);
+    min-height: 440px;
+    max-height: 440px;
+    min-width: 450px;
+    max-width: 450px;
+    overflow: auto;
+}
+.itinerary-details ul::-webkit-scrollbar {
+    display: none;
+}
+.itinerary-details li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+        .itinerary-details li button {
+            border-right: none;
+            border-left: none;
+            background: none;
+            border-radius: 10px;
+            border-top: 2px solid #aa9e9e;
+            border-bottom: 2px solid #fff;
+            box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.8);
+        }
+.itinerary-button{
+    
+}
+.itinerary-button:hover {
+    opacity: 50%;
+}
+.itinerary-details-button, 
+.itinerary-remove-button {
+    padding: 5px;
+    font-weight: bold;
+    float:right;
+    min-width:70px;
+
+}
+    .itinerary-details-button:hover,
+    .itinerary-remove-button:hover {
+        color: white;
+        background-color: black;
+    }
+
+.price-book-now {
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+.itinerary-submit-button {
+   
+}
+    .itinerary-submit-button button {
+        font-weight: bold;
+        color: white;
+        background-color: black;
+        border-radius: 10px;
+        border-top: 1px solid black;
+        padding: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.8);
+    }
+    .itinerary-submit-button button:hover {
+        color: black;
+        background-color: white;
+    }
+
+.itinerary-details button {
+ margin-left: 5px;
+   
+}
+
+.itinerary-image {
+    flex: 2;
+    text-align: center;
+    padding-top: 35px;
+}
+
+    .itinerary-image img {
+        max-width: 750px;
+        min-width: 750px;
+        max-height: 450px;
+        min-height: 450px;
+        margin-top: 20px;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.8);
+    }
+
+
+
+/*---- Login page css ----*/
+
+.login-box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.8);
+    z-index: 9999;
+    display: none;
+    max-width: 400px;
+    min-width: 400px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #726e6e;
+    font-family: Bombshell Pro;
+    border-radius: 10px;
+    border-top: 1px solid black;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9998;
+    display: none;
+}
+
+
+.login-box input[type="text"], .login-box input[type="password"] {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #e2e2e2;
+    border-radius: 3px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.login-box button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.8);
+}
+    .login-box button:hover {
+        border-radius: 3px;
+        border: 1px solid black;
+        background-color: white;
+        color: black;
+    }
+
+
+/*---- Profile page css ----*/
+
+
+.profile-background {
+    background-color: white;
+    font-family: Bombshell Pro;
+}
+
+.profile-cover-section {
+    height: 45vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+
+    .profile-cover-section img {
+        width: 95%;
+        height: 100%;
+        object-fit: cover;
+    }
+.profile-user-details {
+    display: flex;
+    flex-direction: row;
+    margin-right: 55px;
+    margin-left: 55px;
+    border-left: 1px solid #e2e2e2;
+    border-right: 1px solid #e2e2e2;
+}
+    .profile-user-details button {
+        margin-top: 10px;
+        margin-left: 50px;
+        color: black;
+        background-color: white;
+        border-radius: 10px;
+        border: 1px solid black;
+        max-height: 50px;
+        padding-right: 10px;
+        padding-left: 10px;
+        box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.8);
+        font-weight:bold;
+    }
+    .profile-user-details button:hover {
+        color: white;
+        background-color: black;
+    }
+.profile-user-name {
+    padding-top:10px;
+    display: flex;
+    flex-direction: column;
+}
+.profile-user-name h1{
+    font-size:40px;
+}
+    .profile-user-name h2 {
+        font-size: 25px;
+        opacity:50%;
+    }
+.user-profile-image {
+    margin-left: 80px;
+    margin-top: -150px;
+    border-radius: 150px;
+    border: 2px solid white;
+}
+    .user-profile-image img {
+
+        width: 320px;
+        height: 300px;
+        border-radius: 150px;
+        border: 5px solid white;
+    }
+.profile-main {
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+    margin-right: 55px;
+    margin-left: 55px;
+    border-left: 1px solid #e2e2e2;
+    border-right: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.profile-bio {
+
+    max-width: 700px;
+    min-width: 700px;
+    max-height:500px;
+    min-height:500px;
+}
+
+.visited-places {
+    width: 100%;
+    max-width: 800px;
+    padding-left: 100px;
+}
+
+.image-list {
+    display: flex;
+
+}
+
+.main-img {
+    flex-basis: 30%;
+   
+}
+    .main-img img {
+        max-width: 500px;
+        min-width: 500px;
+        max-height: 300px;
+        min-height: 300px;
+    }
+.secondary-img {
+    flex-basis: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+    .secondary-img img {
+        width: calc(50% - 10px);
+        margin-bottom: 10px;
+        margin-left:10px;
+    }

@@ -1,0 +1,283 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Search</title>
+	<meta charset="UTF-8">
+
+	<script src="/js/polyfill.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<script src="/js/jquery-3.6.4.js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css" />
+
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+	
+
+</head>
+
+
+
+<body class="search-background">
+	<section class="search-top">
+		<div class="search-form-left">
+			<div class="date1">
+				<h1>1</h1>
+			</div>
+			<div class="date2">
+				<h3>Sunday</h3>
+				<p>April, 2023</p>
+			</div>
+		</div>
+		<div class="search-form">
+			<form>
+				<div class="search-form-div">
+					<label for="location">Location:</label>
+					<input type="text" id="location" name="location">
+				</div>
+				<div class="search-form-div">
+					<label for="date">Date:</label>
+					<input type="date" id="date" name="date">
+				</div>
+				<div class="search-form-div">
+					<label for="people">Number of People:</label>
+					<input type="number" id="people" name="people" min="1">
+				</div>
+				<div class="search-form-div">
+					@*<input type="submit" class="submit-button" value="Search">*@
+					<a asp-controller="Home" class="submit-button" asp-action="Search">Search</a>
+				</div>
+			</form>
+		</div>
+		<div class="search-form-right">
+			<div class="weather">
+				
+				<h1><img src="/Images/weather_icon2.png"> 23°</h1>
+				<div class="search-weather-country">
+					<h3>Romania</h3>
+					<h2>Craiova</h2>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+
+
+	<section class="search-main">
+
+		<div class="search-results">
+			<div class="search-element">
+				<div class="search-element-top">
+					<div>
+						<h3>Destination Name</h3>
+						<h4>29 April-06 May,2023</h4>
+						<p>Category:Europe</p>
+					</div>
+				
+					<div class="search-add-button">
+					
+						<a asp-controller="Home" asp-action="Itinerary">Add to Itinerary</a>
+					</div>
+				</div>
+		
+				<img src="/Images/tourist_destiantion_1.png" alt="Location 1">
+
+					<div class="search-details">
+						<button class="">View Details</button>
+						<div class="search-element-price">
+							<h5>Total Price:</h5>
+							<h2>2.700$</h2>
+						</div>
+					   
+
+					</div>
+			</div>
+			<div class="search-element">
+				<div class="search-element-top">
+					<div>
+						<h3>Destination Name</h3>
+						<h4>29 April-06 May,2023</h4>
+						<p>Category:Europe</p>
+					</div>
+
+					<div class="search-add-button">
+						<a asp-controller="Home" asp-action="Itinerary">Add to Itinerary</a>
+					</div>
+				</div>
+
+				<img src="/Images/tourist_destiantion_2.png" alt="Location 1">
+
+				<div class="search-details">
+					<button class="">View Details</button>
+					<div class="search-element-price">
+						<h5>Total Price:</h5>
+						<h2>3.800$</h2>
+					</div>
+
+
+				</div>
+			</div>
+			<div class="search-element">
+				<div class="search-element-top">
+					<div>
+						<h3>Destination Name</h3>
+						<h4>29 April-06 May,2023</h4>
+						<p>Category:Europe</p>
+					</div>
+
+					<div class="search-add-button">
+						<a asp-controller="Home" asp-action="Itinerary">Add to Itinerary</a>
+					</div>
+				</div>
+
+				<img src="/Images/tourist_destiantion_3.png" alt="Location 1">
+
+				<div class="search-details">
+					<button class="">View Details</button>
+					<div class="search-element-price">
+						<h5>Total Price:</h5>
+						<h2>3.400$</h2>
+					</div>
+
+
+				</div>
+			</div>
+			<div class="search-element">
+				<div class="search-element-top">
+					<div>
+						<h3>Destination Name</h3>
+						<h4>29 April-06 May,2023</h4>
+						<p>Category:Europe</p>
+					</div>
+
+					<div class="search-add-button">
+						<a asp-controller="Home" asp-action="Itinerary">Add to Itinerary</a>
+					</div>
+				</div>
+
+				<img src="/Images/tourist_destiantion_4.png" alt="Location 1">
+
+				<div class="search-details">
+					<button class="">View Details</button>
+					<div class="search-element-price">
+						<h5>Total Price:</h5>
+						<h2>6.800$</h2>
+					</div>
+
+
+				</div>
+			</div>
+			<div class="search-element">
+				<div class="search-element-top">
+					<div>
+						<h3>Destination Name</h3>
+						<h4>29 April-06 May,2023</h4>
+						<p>Category:Europe</p>
+					</div>
+
+					<div class="search-add-button">
+						<a asp-controller="Home" asp-action="Itinerary">Add to Itinerary</a>
+					</div>
+				</div>
+
+				<img src="/Images/tourist_destiantion_5.png" alt="Location 1">
+
+				<div class="search-details">
+					<button class="">View Details</button>
+					<div class="search-element-price">
+						<h5>Total Price:</h5>
+						<h2>4.200$</h2>
+					</div>
+
+
+				</div>
+			</div>
+			<div class="search-element">
+				<div class="search-element-top">
+					<div>
+						<h3>Destination Name</h3>
+						<h4>29 April-06 May,2023</h4>
+						<p>Category:Europe</p>
+					</div>
+
+					<div class="search-add-button">
+						<a asp-controller="Home" asp-action="Itinerary">Add to Itinerary</a>
+					</div>
+				</div>
+
+				<img src="/Images/tourist_destiantion_6.png" alt="Location 1">
+
+				<div class="search-details">
+					<button class="">View Details</button>
+					<div class="search-element-price">
+						<h5>Total Price:</h5>
+						<h2>9.100$</h2>
+					</div>
+
+
+				</div>
+			</div>
+			<div class="search-element">
+				<div class="search-element-top">
+					
+					<div>
+						<h3>Destination Name</h3>
+						<h4>29 April-06 May,2023</h4>
+						<p>Category:Europe</p>
+					</div>
+
+					<div class="search-add-button">
+						<a asp-controller="Home" asp-action="Itinerary">Add to Itinerary</a>
+					</div>
+				</div>
+
+				<img src="/Images/tourist_destiantion_7.png" alt="Location 1">
+
+				<div class="search-details">
+					<button class="">View Details</button>
+					<div class="search-element-price">
+						<h5>Total Price:</h5>
+						<h2>8.800$</h2>
+					</div>
+
+
+				</div>
+			</div>
+			<div class="search-element">
+				<div class="search-element-top">
+					<div>
+						<h3>Destination Name</h3>
+						<h4>29 April-06 May,2023</h4>
+						<p>Category:Europe</p>
+					</div>
+
+					<div class="search-add-button">
+						<a asp-controller="Home" asp-action="Itinerary">Add to Itinerary</a>
+					</div>
+				</div>
+
+				<img src="/Images/tourist_destiantion_8.png" alt="Location 1">
+
+				<div class="search-details">
+					<button class="">View Details</button>
+					<div class="search-element-price">
+						<h5>Total Price:</h5>
+						<h2>1.800$</h2>
+					</div>
+
+
+				</div>
+			</div>
+			
+
+
+		</div>
+		
+	</section>
+
+
+
+</body>
+
+</html>

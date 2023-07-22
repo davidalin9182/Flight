@@ -1,0 +1,227 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Itinerary</title>
+    <meta charset="UTF-8">
+    <title>Message</title>
+    <script src="/js/polyfill.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+
+</head>
+<body class="itinerary-background">
+
+    <section class="itinerary-top">
+        <h1 class="itinerary-title">Itinerary</h1>
+        <p class="itinerary-description">Here you can view and edit your itinerary</p>
+    </section>
+
+    <section class="itinerary-main">
+        <div class="itinerary-wrapper">
+          
+            <div class="itinerary-name">
+                <h2 class="itinerary-details-title">My Itinerary :</h2>
+                <button class="">Reset Itinerary</button>
+            </div>
+            <hr>
+        <div class="itinerary-main-content">
+            <div class="itinerary-details">
+                    <div class="itinerary-details-top">
+                        <h3 class="itinerary-details-description">List of you current destinations:</h3>
+                       @* <button class="add-destination-button">Add Destination</button>*@
+                        <a asp-controller="Home" class="submit-button" asp-action="Search">Add Destination</a>
+                    </div>
+                
+                <hr>
+                <div class="itinerary-details-list">
+                <ul>
+                    <li class="itinerary-details-item" id="destination1">
+                        <button id="destination1" class="itinerary-button">
+                            <span class="itinerary-details-item-name">Destination1</span>
+                  
+                            <span class="itinerary-details-item-price">3.000$</span>
+                        </button>
+                        <button class="itinerary-details-button">Details</button>
+                        <button class="itinerary-remove-button">Remove</button>
+                    </li>
+                    <li class="itinerary-details-item" id="destination2">
+                        <button class="itinerary-button">
+                            <span class="itinerary-details-item-name">Destination2</span>
+  
+                            <span class="itinerary-details-item-price">2.500$</span>
+                        </button>
+                        <button class="itinerary-details-button">Details</button>
+                        <button class="itinerary-remove-button">Remove</button>
+                    </li>
+                    <li class="itinerary-details-item" id="destination3">
+                        <button class="itinerary-button">
+                            <span class="itinerary-details-item-name">Destination3</span>
+     
+                            <span class="itinerary-details-item-price">4.100$</span>
+                        </button>
+                        <button class="itinerary-details-button">Details</button>
+                        <button class="itinerary-remove-button">Remove</button>
+                    </li>
+                    <li class="itinerary-details-item" id="destination4">
+                        <button class="itinerary-button">
+                            <span class="itinerary-details-item-name">Destination4</span>
+        
+                            <span class="itinerary-details-item-price">5.300$</span>
+                        </button>
+                        <button class="itinerary-details-button">Details</button>
+                        <button class="itinerary-remove-button">Remove</button>
+                    </li>
+                    <li class="itinerary-details-item" id="destination5">
+                        <button class="itinerary-button">
+                            <span class="itinerary-details-item-name">Destination5</span>
+    
+                            <span class="itinerary-details-item-price">2.800$</span>
+                        </button>
+                        <button class="itinerary-details-button">Details</button>
+                        <button class="itinerary-remove-button">Remove</button>
+                    </li>
+                    <li class="itinerary-details-item" id="destination6">
+                        <button class="itinerary-button">
+                            <span class="itinerary-details-item-name">Destination6</span>
+      
+                            <span class="itinerary-details-item-price">4.300$</span>
+                        </button>
+                        <button class="itinerary-details-button">Details</button>
+                        <button class="itinerary-remove-button">Remove</button>
+                    </li>
+                    <li class="itinerary-details-item" id="destination7">
+                        <button class="itinerary-button"> 
+                            <span class="itinerary-details-item-name">Destination7</span>
+         
+                            <span class="itinerary-details-item-price">9.200$</span>
+                        </button>
+                        <button class="itinerary-details-button">Details</button>
+                        <button class="itinerary-remove-button">Remove</button>
+                    </li>
+                    <li class="itinerary-details-item" id="destination8">
+                        <button class="itinerary-button">
+                            <span class="itinerary-details-item-name">Destination8</span>
+
+                            <span class="itinerary-details-item-price">6.300$</span>
+                        </button>
+                        <button class="itinerary-details-button">Details</button>
+                        <button class="itinerary-remove-button">Remove</button>
+                    </li>
+                    <li class="itinerary-details-item" id="destination9">
+                        <button class="itinerary-button">
+                            <span class="itinerary-details-item-name">Destination9</span>
+
+                            <span class="itinerary-details-item-price">8.400$</span>
+                        </button>
+                        <button class="itinerary-details-button">Details</button>
+                        <button class="itinerary-remove-button">Remove</button>
+                    </li>
+                    <li class="itinerary-details-item" id="destination10">
+                        <button class="itinerary-button">
+                            <span class="itinerary-details-item-name">Destinationx</span>
+
+                            <span class="itinerary-details-item-price">4.000$</span>
+                        </button>
+                        <button class="itinerary-details-button">Details</button>
+                        <button class="itinerary-remove-button">Remove</button>
+                    </li>
+                   
+                </ul>
+                </div>
+                <hr>
+                <div class="price-book-now">
+                        <div class="itinerary-submit-button">
+                            <button class="">Book Now</button>
+                        </div>
+                        <h4 class="itinerary-details-footer">Total Price:  14.000$</h4>
+                       
+                </div>
+                
+            
+            </div>
+            <div class="itinerary-image">
+            </div>
+        </div>
+            <hr>
+        </div>
+    </section>
+
+</body>
+
+<script>
+
+
+    const images = [
+        {
+            id: 'destination1',
+            src: '/Images/tourist_destiantion_1.png'
+        },
+        {
+            id: 'destination2',
+            src: '/Images/tourist_destiantion_2.png'
+        },
+        {
+            id: 'destination3',
+            src: '/Images/tourist_destiantion_3.png'
+        },
+        {
+            id: 'destination4',
+            src: '/Images/tourist_destiantion_4.png'
+        },
+        {
+            id: 'destination5',
+            src: '/Images/tourist_destiantion_5.png'
+        },
+        {
+            id: 'destination6',
+            src: '/Images/tourist_destiantion_6.png'
+        },
+        {
+            id: 'destination7',
+            src: '/Images/tourist_destiantion_7.png'
+        },
+        {
+            id: 'destination8',
+            src: '/Images/tourist_destiantion_8.png'
+        },
+        {
+            id: 'destination9',
+            src: '/Images/tourist_destiantion_9.png'
+        },
+        {
+            id: 'destination10',
+            src: '/Images/tourist_destiantion_10.png'
+        }
+    ];  
+
+
+
+    const buttons = document.querySelectorAll('.itinerary-button');
+    const itineraryImage = document.querySelector('.itinerary-image');
+
+    buttons.forEach((button, index) => {
+        button.addEventListener('click', () => {
+            const target = button.parentNode.getAttribute('id');
+            const image = images.find((image) => image.id === target).src;
+            itineraryImage.innerHTML = `<img src="${image}">`;
+        });
+        // Check if the current button is the first button, then simulate a click on it to load its image by default
+        if (index === 0) {
+            button.click();
+        }
+    });
+
+
+
+
+</script>
+
+</html>

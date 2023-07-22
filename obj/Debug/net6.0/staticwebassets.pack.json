@@ -1,0 +1,441 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Proiect_HCI.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Proiect_HCI.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\Images\\about_bg.png",
+      "PackagePath": "staticwebassets\\Images\\about_bg.png"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\Images\\about_bg2.png",
+      "PackagePath": "staticwebassets\\Images\\about_bg2.png"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\Images\\about_picture_1.png",
+      "PackagePath": "staticwebassets\\Images\\about_picture_1.png"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\Images\\about_picture_2.png",
+      "PackagePath": "staticwebassets\\Images\\about_picture_2.png"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\Images\\about_picture_3.png",
+      "PackagePath": "staticwebassets\\Images\\about_picture_3.png"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\Images\\about_picture_4.png",
+      "PackagePath": "staticwebassets\\Images\\about_picture_4.png"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\Images\\avatar_image_1.jpg",
+      "PackagePath": "staticwebassets\\Images\\avatar_image_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\Images\\background_home.png",
+      "PackagePath": "staticwebassets\\Images\\background_home.png"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\Images\\background_home2.png",
+      "PackagePath": "staticwebassets\\Images\\background_home2.png"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\Images\\background_home3.png",
+      "PackagePath": "staticwebassets\\Images\\background_home3.png"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\Images\\background_home4.png",
+      "PackagePath": "staticwebassets\\Images\\background_home4.png"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\Images\\cover_image.png",
+      "PackagePath": "staticwebassets\\Images\\cover_image.png"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\Images\\flight_logo.png",
+      "PackagePath": "staticwebassets\\Images\\flight_logo.png"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\Images\\flight_logo2.png",
+      "PackagePath": "staticwebassets\\Images\\flight_logo2.png"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\Images\\flight_logo3.png",
+      "PackagePath": "staticwebassets\\Images\\flight_logo3.png"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\Images\\flight_logo4.png",
+      "PackagePath": "staticwebassets\\Images\\flight_logo4.png"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\Images\\logo_2.png",
+      "PackagePath": "staticwebassets\\Images\\logo_2.png"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\Images\\social_icon_1.png",
+      "PackagePath": "staticwebassets\\Images\\social_icon_1.png"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\Images\\social_icon_2.png",
+      "PackagePath": "staticwebassets\\Images\\social_icon_2.png"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\Images\\social_icon_3.png",
+      "PackagePath": "staticwebassets\\Images\\social_icon_3.png"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\Images\\social_icon_4.png",
+      "PackagePath": "staticwebassets\\Images\\social_icon_4.png"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\Images\\social_icon_5.png",
+      "PackagePath": "staticwebassets\\Images\\social_icon_5.png"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\Images\\social_icon_6.png",
+      "PackagePath": "staticwebassets\\Images\\social_icon_6.png"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\Images\\social_icon_7.png",
+      "PackagePath": "staticwebassets\\Images\\social_icon_7.png"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\Images\\tourist_destiantion_1.png",
+      "PackagePath": "staticwebassets\\Images\\tourist_destiantion_1.png"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\Images\\tourist_destiantion_10.png",
+      "PackagePath": "staticwebassets\\Images\\tourist_destiantion_10.png"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\Images\\tourist_destiantion_2.png",
+      "PackagePath": "staticwebassets\\Images\\tourist_destiantion_2.png"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\Images\\tourist_destiantion_3.png",
+      "PackagePath": "staticwebassets\\Images\\tourist_destiantion_3.png"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\Images\\tourist_destiantion_4.png",
+      "PackagePath": "staticwebassets\\Images\\tourist_destiantion_4.png"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\Images\\tourist_destiantion_5.png",
+      "PackagePath": "staticwebassets\\Images\\tourist_destiantion_5.png"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\Images\\tourist_destiantion_6.png",
+      "PackagePath": "staticwebassets\\Images\\tourist_destiantion_6.png"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\Images\\tourist_destiantion_7.png",
+      "PackagePath": "staticwebassets\\Images\\tourist_destiantion_7.png"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\Images\\tourist_destiantion_8.png",
+      "PackagePath": "staticwebassets\\Images\\tourist_destiantion_8.png"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\Images\\tourist_destiantion_9.png",
+      "PackagePath": "staticwebassets\\Images\\tourist_destiantion_9.png"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\Images\\weather_icon.png",
+      "PackagePath": "staticwebassets\\Images\\weather_icon.png"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\Images\\weather_icon2.png",
+      "PackagePath": "staticwebassets\\Images\\weather_icon2.png"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\Images\\white_bg.png",
+      "PackagePath": "staticwebassets\\Images\\white_bg.png"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\css\\slick-theme.min.css",
+      "PackagePath": "staticwebassets\\css\\slick-theme.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\js\\desktop.ini",
+      "PackagePath": "staticwebassets\\js\\desktop.ini"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\js\\jquery-3.6.4.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.6.4.js"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\js\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\js\\owl.carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\js\\polyfill.min.js",
+      "PackagePath": "staticwebassets\\js\\polyfill.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\js\\slick.min.js",
+      "PackagePath": "staticwebassets\\js\\slick.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SameThing\\Desktop\\Facultate\\Proiect_HCI\\Proiect_HCI\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Proiect_HCI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Proiect_HCI.props",
+      "PackagePath": "build\\Proiect_HCI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Proiect_HCI.props",
+      "PackagePath": "buildMultiTargeting\\Proiect_HCI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Proiect_HCI.props",
+      "PackagePath": "buildTransitive\\Proiect_HCI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
